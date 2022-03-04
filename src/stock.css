@@ -1,0 +1,18 @@
+.stock_table {
+    margin: auto auto 50px;
+    width: 70%;
+    border: 3px solid black;
+}
+
+.stock_table thead {
+    border: 2px solid black;
+    background-color: rgba(0, 124, 128, 0.5);
+}
+
+.more_than_zero {
+    border: 2px solid green;
+}
+
+.less_than_zero {
+    border: 2px solid red;
+}

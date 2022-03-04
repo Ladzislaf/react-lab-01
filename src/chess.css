@@ -1,0 +1,36 @@
+.chess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    color: #2f4d2c;
+}
+
+.chess div {
+    display: flex;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.83);
+    border: 1px solid rgba(0, 0, 0, 0.83);
+    height: 50px;
+    width: 50px;
+}
+
+.white {
+    background-color: #a3ec8d;
+    border: 1px solid rgba(0, 0, 0, 0.83);
+    height: 50px;
+    width: 50px;
+}
+
+.nums {
+    margin: auto;
+}
+
+.letters div {
+    width: 52px;
+    justify-content: center;
+}
